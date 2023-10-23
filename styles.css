@@ -1,0 +1,159 @@
+header{  
+    padding: 0;
+    color: white;
+    background-color: black;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logo{
+    padding: 20px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.logo img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+} 
+nav{
+    border-radius: 20px;
+    text-align: center;
+    width: 50%;
+    background-color: brown;
+    margin:10px;
+    padding:10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+li{ 
+    text-decoration: none;
+    border: 10px;
+    margin: 20px; 
+    border: 2px;
+    display: inline;
+    justify-content: space-between;
+    list-style:none ;
+}
+a{  
+    border-radius: 5px;
+    background-color: brown;
+    border: 2px solid black;
+    color: #FFC436;
+    text-decoration: none;
+}
+.titlepage{
+    margin-right: 10px;
+    margin-top: 100px;
+    color: #FFC436;
+    padding: 10px;
+    text-align: right;
+}
+.introhead{
+    display: flex;
+    margin-top: 300px;
+    color: #FFC436;
+    background-color: brown;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur;
+    border: 2px solid rgba(0, 0, 0, 0.5); 
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    border-color: #FFC436;
+    border-width: 1px;
+    border-style: solid;
+} 
+.introhead a{
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    text-decoration: none;
+    color: #FFC436;
+}
+#Contact{
+    margin-top: 20px;
+    text-align: center;
+    background-color: brown;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur;
+    border: 2px solid rgba(0, 0, 0, 0.5); 
+    margin: 20px;
+    padding: 20px;
+    color: #FFC436;
+    border-radius: 5px;
+    border-color: #FFC436;
+    border-width: 1px;
+    border-style: solid; 
+}
+#Contact a{
+    border: none;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+    text-decoration: none;
+}
+.my-portfolio {
+    color: #FFC436;
+    margin-top: 20px;
+    padding:20px;
+}
+#About-ME{
+    margin: 20px;
+    margin-bottom: 30px;
+    background-color: brown;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur;
+    border: 2px solid rgba(0, 0, 0, 0.5); 
+    color: #FFC436;
+    padding: 20px;
+    border-radius: 5px;
+    border-color: #FFC436;
+    border-width: 1px;
+    border-style: solid;  
+}
+.exmp img{
+    width: 100px;
+    height: 100px;
+}
+.introhead img{
+    width:300px ;
+    height: 300px;
+    border-radius: 20%;
+}
+#Contact img{
+    height: 50px;
+    width: 50px;
+}
+.port1{
+    margin-right: 120px;
+    width: 250px;
+    height: 250px;
+}
+.port2{
+    margin-right: 100px;
+    width: 250px;
+    height: 250px;
+}
+.port3{
+    margin-right: 120px;
+    width: 250px;
+    height: 250px;
+}
+.port4{
+    margin-right: 100px;
+    width: 250px;
+    height: 250px;
+}
+footer{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    color: #FFC436;
+}
